@@ -1,0 +1,33 @@
+.servi{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+.servi section{
+    width: 25%;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: rgba(159, 159, 159, 0.442);
+    min-width: 200px;
+    
+}
+
+.servi section p::selection{    
+    background-color: rgba(244,214,74,255);
+    
+}
+.servi img{
+    width: 200px;
+}
+.servi .btnbtn2 {
+    background-color:moccasin;
+    width: 400;
+     max-width: 150px;
+     margin: auto;
+     padding: 5px 35px;
+     margin-top: 7px;
+     padding-bottom: 7px;
+     border-radius: 3px;
+}

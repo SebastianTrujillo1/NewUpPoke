@@ -1,0 +1,42 @@
+.form-contacto {    
+    font-family: 'Roboto', sans-serif;
+    padding: 2em;
+    background: radial-gradient(at top,rgba(160, 146, 119, 0.774),rgba(209, 127, 4, 0.733));
+}
+.form-contacto .col{
+    width: 80%;
+    margin: 0 auto;
+}
+.form-contacto label {    
+    display: block;
+    position: relative;
+}
+.form-contacto input,
+.form-contacto select,
+.form-contacto textarea{    
+    border: none;
+    border-bottom: 2px solid rgba(36, 11, 8, 0.9);
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.form-contacto .radio label,
+.form-contacto .check label {
+    display: inline;
+}
+
+.form-contacto .radio input,
+.form-contacto .check input {
+    width: auto;
+    background-color: aliceblue;
+}
+.form-contacto .btn {
+    width: 80px;
+}
+.botones {
+    margin: 0 auto;
+}
+#map { 
+    height: 300px; 
+}

@@ -1,0 +1,19 @@
+#blog h3, h4 {
+    text-align: center;
+}
+
+#blog .contenedor {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: radial-gradient(at top,rgba(146, 120, 5, 0.774), rgba(48, 35, 2, 0.774) );
+}
+
+#blog article {
+    margin: 15px;
+}
+
+#blog img {
+    width: 100%;
+    max-width: 280px;
+}

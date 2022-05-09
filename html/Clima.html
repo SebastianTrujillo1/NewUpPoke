@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/fontello.css">
+    <link rel="stylesheet" href="../css/Estilo.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <h1 class="icon-home">Proyect</h1>
+            <input type="checkbox" id="barraMen">
+            <label class="icon-menu" for="barraMen"></label>
+            <nav class="menu">
+              <a href="../index.html">Inicio</a>
+              <a href="../html/Nosotros.html">Nosotros</a>
+              <a href="../html/servicios.html">Servicios</a>
+              <a href="../html/contacto.html">Contacto</a>
+              <a href="../html/Clima.html">Clima</a>
+              <a href="../html/Pokedex.html">Pokedex</a>
+        </div>
+    </header>
+
+    <main>
+      <section id="banner">
+        <img src="../img/2mans_in_fire.jpg" alt="">
+        <div class="contenedor">
+            <h2>Por el Imperio</h2>
+            <p>muera por el imperio</p>
+            <a href="../html/Nosotros.html">leer mas</a>
+        </div>          
+      </section>
+        <div class="api">
+          <div class="contenedor">🌞 Necesitamos una APIKey de OpenWeather <a target="_blank" href="https://home.openweathermap.org/users/sign_up">Obtenla gratis!</a>
+          </div>
+        </div>
+        <section class="top-banner">
+          <div class="contenedor">
+            <h1 class="cabecera">Escriba:</h1>
+            <form>
+              <input type="text" placeholder="Ingrese una ciudad o pais" autofocus>
+              <button type="submit">Enviar</button>
+              <span class="msg"></span>
+            </form>
+          </div>
+        </section>
+        <section class="seccion-con-ajax">
+          <div class="contenedor">
+            <ul class="ciudades"></ul>
+          </div>
+        </section>
+    </main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <div class="contenedor">
+            <p class="copy">Monsterjäger-R57 &copy; 2022</p>
+            <div class="red-sociales">
+              <a class="icon-facebook-squared" href="https://www.facebook.com/groups/357688341491180/"></a>
+              <a class="icon-twitter" href="https://twitter.com/ibai_peruano"></a>
+              <a class="icon-instagram" href="https://www.instagram.com/sebtruj18/?hl=es-la"></a>
+              <a class="icon-twitch" href="https://www.twitch.tv/hentaimasterwc"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/clima.js"></script>
+
+    <div hidden>
+        <audio src="../audio/mas alla del sol.mp3" autoplay loop controls></audio>
+    </div>
+</body>
+</html>
